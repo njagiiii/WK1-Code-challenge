@@ -22,4 +22,4 @@ function car(){
    }
 }
 // call the main function and the return function
-console.log(car()(10));
+console.log(car()(80));
