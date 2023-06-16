@@ -3,8 +3,8 @@
 
 function car(){
    return function(speed){  //return the main function from this function
-        const limit = 70;  //initialize the limit argument
-        const kilometers = 5; // initialize kilometer argument
+        const limit = 70;  //initialize the limit local variable
+        const kilometers = 5; // initialize kilometer local variable
 
         if (speed <= limit){    
             return "OK"        // give a condition that checks the speed
