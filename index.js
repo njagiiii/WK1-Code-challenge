@@ -3,7 +3,7 @@
  let marks=60;
  let grade;
 
- //switch between the grades
+ //switch statement to determine the grade
 
  if(marks  > 100){
     console.log("Invalid choice");
